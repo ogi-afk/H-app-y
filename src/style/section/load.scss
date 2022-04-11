@@ -1,0 +1,31 @@
+.load {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 140px;
+
+  &__citation {
+    @include sub-title;
+
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+  }
+
+  &__title {
+    @include title;
+    margin-bottom: 14px;
+  }
+
+  &__text {
+    @include text-secondary;
+
+    color: $text-secondary;
+
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  &__button {
+    margin-top: 25px;
+  }
+}

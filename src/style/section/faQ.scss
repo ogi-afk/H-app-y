@@ -1,0 +1,37 @@
+.faQ {
+  background-color: $white-secondary;
+  padding-top: 140px;
+  padding-bottom: 100px;
+
+  @include media-from-to(320, 727.9) {
+    padding-top: 70px;
+    padding-bottom: 60px;
+  }
+
+  &__title {
+    @include title;
+
+    margin-bottom: 13px;
+  }
+
+  &__citation {
+    @include sub-title;
+  }
+
+  &__list {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+
+    @include media-from-to(320, 727.9) {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  &__sub-title {
+    margin-bottom: 10px;
+    font-weight: normal;
+  }
+}

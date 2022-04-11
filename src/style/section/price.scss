@@ -1,0 +1,70 @@
+.price {
+  margin-top: 100px;
+  text-align: center;
+  margin-bottom: 100px;
+
+  &__citation {
+    @include sub-title;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+  }
+
+  &__title {
+    @include title;
+
+    margin-bottom: 14px;
+  }
+
+  &__text {
+    @include text-secondary;
+
+    max-width: 568px;
+    margin: 0 auto;
+  }
+
+  &__list {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+
+    @include media-from-to(320, 727.99) {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  &__card {
+    background-color: $white-secondary;
+    padding-top: 59px;
+    padding-bottom: 50px;
+    border-radius: 20px;
+  }
+
+  &__sub-title {
+    @include sub-title;
+  }
+
+  &__number {
+    @include number-lg;
+  }
+
+  &--1 {
+    color: $icon-1;
+  }
+  &--2 {
+    color: $icon-2;
+  }
+  &--3 {
+    color: $icon-3;
+  }
+
+  &__time {
+    @include sub-title;
+
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+}
