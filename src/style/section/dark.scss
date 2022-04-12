@@ -31,6 +31,7 @@
 
   &__img {
     margin-top: 31px;
+
     @include media-from-to(320, 800) {
       max-width: 300px;
     }

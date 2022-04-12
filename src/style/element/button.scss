@@ -1,5 +1,6 @@
 .button {
   @include button;
+
   color: $white-primery;
   background: $black-primery;
   padding: 10px 30px 12px 30px;
