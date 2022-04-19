@@ -1,6 +1,7 @@
 .future {
   margin-top: 139px;
   display: flex;
+  justify-content: space-between;
 
   @include media-up-to(1200) {
     margin-top: 70px;
@@ -49,6 +50,7 @@
   }
 
   &__img {
+    margin-right: 120px;
     @include media-up-to(1000) {
       display: none;
     }

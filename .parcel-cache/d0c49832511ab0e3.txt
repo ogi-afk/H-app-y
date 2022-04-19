@@ -30,7 +30,7 @@
 64C:\edu\2022\H-app-y\node_modules\caniuse-lite\data\regions\SZ.js132936530799218354 0
 55C:\edu\2022\H-app-y\node_modules\@parcel\diagnostic\src132936530805051009 1
 44C:\edu\2022\H-app-y\dist\icon-1.1bd0ca9c.svg132947798987628948 0
-24C:\edu\2022\H-app-y\dist132948448120451715 1
+24C:\edu\2022\H-app-y\dist132948538461027856 1
 49C:\edu\2022\H-app-y\node_modules\type-fest\source132936530783957385 1
 30C:\edu\2022\H-app-y\.gitignore132942278560236591 0
 63C:\edu\2022\H-app-y\node_modules\htmlparser2\lib\FeedHandler.js132936530777673479 0
@@ -60,7 +60,7 @@
 61C:\edu\2022\H-app-y\node_modules\electron-to-chromium\LICENSE132936530777334407 0
 23C:\edu\2022\H-app-y\src132937179496847388 1
 79C:\edu\2022\H-app-y\node_modules\@parcel\transformer-js\lib\esmodule-helpers.js132936530794052962 0
-34C:\edu\2022\H-app-y\src\index.html132948444661896907 0
+34C:\edu\2022\H-app-y\src\index.html132948544062207318 0
 71C:\edu\2022\H-app-y\node_modules\@parcel\codeframe\lib\codeframe.js.map132936530787480551 0
 53C:\edu\2022\H-app-y\node_modules\json5\lib\index.d.ts132936530781763297 0
 39C:\edu\2022\H-app-y\node_modules\@types132936530767907843 1
@@ -94,7 +94,7 @@
 95C:\edu\2022\H-app-y\node_modules\@parcel\core\test\fixtures\custom-format-mismatch\package.json132936530815950416 0
 47C:\edu\2022\H-app-y\node_modules\yaml\scalar.js132936530783242138 0
 39C:\edu\2022\H-app-y\src\style\mane.scss132939929246069874 0
-51C:\edu\2022\H-app-y\src\style\section\comments.scss132948432078978019 0
+51C:\edu\2022\H-app-y\src\style\section\comments.scss132948531550988038 0
 58C:\edu\2022\H-app-y\node_modules\terser\dist\bundle.min.js132936530781982732 0
 37C:\edu\2022\H-app-y\src\style\section132939005144883894 1
 40C:\edu\2022\H-app-y\src\style\style.scss132937250289898435 0
@@ -125,18 +125,18 @@
 69C:\edu\2022\H-app-y\node_modules\dom-serializer\node_modules\entities132936530781093558 1
 50C:\edu\2022\H-app-y\src\style\variables\index.scss132937177960040430 0
 70C:\edu\2022\H-app-y\node_modules\@swc\helpers\lib\_set_prototype_of.js132936530788667390 0
-51C:\edu\2022\H-app-y\src\style\section\benefits.scss132948424662258820 0
-47C:\edu\2022\H-app-y\src\style\section\dark.scss132947800661393114 0
+51C:\edu\2022\H-app-y\src\style\section\benefits.scss132948519080330426 0
+47C:\edu\2022\H-app-y\src\style\section\dark.scss132948528087062253 0
 64C:\edu\2022\H-app-y\node_modules\caniuse-lite\data\regions\LA.js132936530795477059 0
 64C:\edu\2022\H-app-y\node_modules\caniuse-lite\data\regions\BG.js132936530785687446 0
-46C:\edu\2022\H-app-y\src\style\section\faQ.scss132948430561734061 0
+46C:\edu\2022\H-app-y\src\style\section\faQ.scss132948535854958532 0
 95C:\edu\2022\H-app-y\node_modules\@parcel\core\test\fixtures\invalid-source-missing\package.json132936530816029915 0
 60C:\edu\2022\H-app-y\node_modules\domutils\lib\feeds.d.ts.map132936530780522620 0
 69C:\edu\2022\H-app-y\node_modules\caniuse-lite\data\features\tls1-2.js132936530799433732 0
 45C:\edu\2022\H-app-y\src\img\screen\mobile.jpg132943104174064563 0
 53C:\edu\2022\H-app-y\node_modules\ordered-binary\tests132936530779260059 1
 82C:\edu\2022\H-app-y\node_modules\@parcel\core\test\fixtures\invalid-source-missing132936530816029915 1
-47C:\edu\2022\H-app-y\src\style\section\form.scss132948436646649536 0
+47C:\edu\2022\H-app-y\src\style\section\form.scss132948525977318726 0
 55C:\edu\2022\H-app-y\node_modules\mdn-data\l10n\css.json132936530780452821 0
 48C:\edu\2022\H-app-y\node_modules\is-json\LICENSE132936530778399916 0
 50C:\edu\2022\H-app-y\node_modules\sass\package.json132936533137855373 0
@@ -149,7 +149,7 @@
 47C:\edu\2022\H-app-y\src\style\layout\index.scss132937226644309130 0
 98C:\edu\2022\H-app-y\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-main132936530788987670 1
 63C:\edu\2022\H-app-y\node_modules\htmlnano\lib\modules\custom.js132936530780392968 0
-49C:\edu\2022\H-app-y\src\style\section\future.scss132948438299261669 0
+49C:\edu\2022\H-app-y\src\style\section\future.scss132948538458411513 0
 46C:\edu\2022\H-app-y\node_modules\chalk\license132936530777234688 0
 45C:\edu\2022\H-app-y\node_modules\htmlnano\lib132936530781011314 1
 47C:\edu\2022\H-app-y\src\style\section\info.scss132947805222809477 0
@@ -160,7 +160,7 @@
 71C:\edu\2022\H-app-y\node_modules\yaml\browser\dist\warnings-df54cb69.js132936530785092801 0
 77C:\edu\2022\H-app-y\node_modules\@parcel\utils\test\input\sourcemap\inline.js132936530820666098 0
 78C:\edu\2022\H-app-y\node_modules\@parcel\core\test\fixtures\library-scopehoist132936530816075991 1
-48C:\edu\2022\H-app-y\src\style\section\price.scss132948418737490641 0
+48C:\edu\2022\H-app-y\src\style\section\price.scss132948529508308699 0
 79C:\edu\2022\H-app-y\node_modules\caniuse-lite\data\features\css-writing-mode.js132936530792530009 0
 39C:\edu\2022\H-app-y\node_modules\base-x132936530778512052 1
 48C:\edu\2022\H-app-y\src\style\layout\header.scss132947774943222851 0
@@ -536,7 +536,7 @@
 96C:\edu\2022\H-app-y\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\foo\nested132936530781021288 1
 58C:\edu\2022\H-app-y\node_modules\css-select\lib\general.js132936530779754676 0
 54C:\edu\2022\H-app-y\node_modules\svgo\lib\css-tools.js132936530782663711 0
-43C:\edu\2022\H-app-y\dist\index.08963856.css132948448120422144 0
+43C:\edu\2022\H-app-y\dist\index.08963856.css132948538461008236 0
 41C:\edu\2022\H-app-y\node_modules\msgpackr132936530782242044 1
 90C:\edu\2022\H-app-y\node_modules\dom-serializer\node_modules\entities\lib\maps\decode.json132936530779555243 0
 53C:\edu\2022\H-app-y\node_modules\yaml\browser\pair.js132936530781293056 0
@@ -4307,7 +4307,7 @@
 44C:\edu\2022\H-app-y\dist\icon-4.32ea5f02.svg132948423297176478 0
 44C:\edu\2022\H-app-y\dist\icon-4.951781ca.svg132942599458398365 0
 44C:\edu\2022\H-app-y\dist\icon-5.cba001cc.svg132947798987628948 0
-47C:\edu\2022\H-app-y\dist\index.08963856.css.map132948448120422144 0
+47C:\edu\2022\H-app-y\dist\index.08963856.css.map132948538461008236 0
 43C:\edu\2022\H-app-y\dist\index.2371eadb.css132942599459954212 0
 47C:\edu\2022\H-app-y\dist\index.2371eadb.css.map132942599459954212 0
 35C:\edu\2022\H-app-y\dist\index.html132948444663402870 0

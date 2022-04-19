@@ -30,7 +30,7 @@
 
   &__wrap {
     max-width: 420px;
-    margin: 78px 0 0 78px;
+    margin: 78px 0 0 0;
 
     @include media-from-to(320, 727.9) {
       margin: 0 auto;
@@ -38,7 +38,7 @@
   }
 
   &__img {
-    margin-left: 130px;
+    margin-left: 10px;
 
     @include media-from-to(320, 727.9) {
       margin: 0 auto;
@@ -48,7 +48,6 @@
 
   &__img-2 {
     order: -1;
-    margin-left: 130px;
 
     @include media-from-to(320, 727.9) {
       margin: 0 auto;

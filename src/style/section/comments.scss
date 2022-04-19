@@ -6,14 +6,16 @@
 
   &__title {
     @include font-sub-title;
-
-    margin-bottom: 5px;
   }
 
   &__citation {
     @include font-title;
 
     margin-bottom: 14px;
+  }
+
+  &__text {
+    margin-bottom: 37px;
   }
 
   &__list {

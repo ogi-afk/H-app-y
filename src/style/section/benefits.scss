@@ -57,7 +57,7 @@
     border-radius: 20px;
 
     @include media-from-to(320, 728.9) {
-      min-width: 180px;
+      min-width: 200px;
     }
   }
 
@@ -122,7 +122,7 @@
     @include font-title-card;
 
     color: $color-blue;
-    margin: -11px 0px 11px 0px;
+    margin: -15px 0px 11px 0px;
   }
 
   &__text {

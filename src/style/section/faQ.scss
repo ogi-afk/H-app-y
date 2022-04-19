@@ -1,7 +1,7 @@
 .faQ {
   background-color: $color-white-secondary;
-  padding-top: 140px;
-  padding-bottom: 100px;
+  padding-top: 100px;
+  padding-bottom: 130px;
 
   @include media-from-to(320, 727.9) {
     padding-top: 70px;

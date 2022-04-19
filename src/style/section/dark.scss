@@ -3,7 +3,7 @@
   text-align: center;
   color: $color-white-primery;
   padding-top: 100px;
-  padding-bottom: 140px;
+  padding-bottom: 165px;
 
   @include media-from-to(320, 800) {
     padding-bottom: 50px;
@@ -64,7 +64,6 @@
     gap: 20px;
     justify-content: center;
     margin-top: 42px;
-    margin-bottom: 160px;
   }
 
   &__but {
