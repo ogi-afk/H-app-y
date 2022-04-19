@@ -3,23 +3,21 @@
   padding-top: 100px;
   padding-bottom: 140px;
 
-  &__citation {
-    @include sub-title;
+  &__title {
+    @include font-sub-title;
 
-    letter-spacing: 2px;
-    text-transform: uppercase;
     margin-bottom: 5px;
   }
 
-  &__title {
-    @include title;
+  &__citation {
+    @include font-title;
     margin-bottom: 14px;
   }
 
   &__text {
-    @include text-secondary;
+    @include font-text-secondary;
 
-    color: $text-secondary;
+    color: $color-grey-primery;
 
     max-width: 600px;
     margin: 0 auto;

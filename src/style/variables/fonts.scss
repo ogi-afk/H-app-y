@@ -1,64 +1,94 @@
-@mixin h1-title {
-  font-size: 54px;
-  line-height: 59.4px;
+$font-size-h1-title: 54px;
+$line-height-h1-title: 59.4px;
+$font-size-h1-sm: 36px;
+$line-height-h1-tablet: 40px;
+$font-size-navigation-title: 15px;
+$line-height-navigation-title: 24px;
+$font-size-text-button: 14px;
+$line-height-text-button: 18px;
+$font-size-text: 16px;
+$line-height-text: 24px;
+$font-size-text-secondary: 18px;
+$line-height-text-secondary: 24px;
+$font-size-sub-title: 14px;
+$line-height-sub-title: 20px;
+$font-title: 32px;
+$line-height-title: 36px;
+$font-size-title-card: 24px;
+$line-height-title-card: 30px;
+$font-size-text-card: 15px;
+$line-height-text-card: 22.4px;
+$font-size-big-number: 96px;
+$line-height-big-number: 96px;
+$font-size-large-number: 108px;
+$line-height-large-number: 124px;
+$font-size-title-FAQ: 18px;
+$line-height-title-FAQ: 28px;
+
+@mixin font-h1-title {
+  font-size: $font-size-h1-title;
+  line-height: $line-height-h1-title;
 
   @include media-from-to(320, 727.9) {
-    font-size: 36px;
-    line-height: 40px;
+    font-size: $font-size-h1-sm;
+    line-height: $line-height-h1-tablet;
   }
 }
 
-@mixin navigation {
-  font-size: 15px;
-  line-height: 24px;
+@mixin font-navigation-title {
+  font-size: $font-size-navigation-title;
+  line-height: $line-height-navigation-title;
 }
 
-@mixin button {
-  font-size: 14px;
-  line-height: 18px;
+@mixin font-text-button {
+  font-size: $font-size-text-button;
+  line-height: $line-height-text-button;
 }
 
-@mixin text {
-  font-size: 16px;
-  line-height: 24px;
+@mixin font-text {
+  font-size: $font-size-text;
+  line-height: $line-height-text;
 }
 
-@mixin text-secondary {
-  font-size: 18px;
-  line-height: 24px;
+@mixin font-text-secondary {
+  font-size: $font-size-text-secondary;
+  line-height: $line-height-text-secondary;
 }
 
-@mixin sub-title {
-  font-size: 14px;
-  line-height: 20px;
+@mixin font-sub-title {
+  font-size: $font-size-sub-title;
+  line-height: $line-height-sub-title;
+
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
-@mixin title {
-  font-size: 32px;
-  line-height: 36px;
+@mixin font-title {
+  font-size: $font-title;
+  line-height: $line-height-title;
 }
 
-@mixin title-card {
-  font-size: 24px;
-  line-height: 30px;
+@mixin font-title-card {
+  font-size: $font-size-title-card;
+  line-height: $line-height-title-card;
 }
 
-@mixin text-card {
-  font-size: 15px;
-  line-height: 22.4px;
+@mixin font-text-card {
+  font-size: $font-size-text-card;
+  line-height: $line-height-text-card;
 }
 
-@mixin number-bg {
-  font-size: 96px;
-  line-height: 96px;
+@mixin font-big-number {
+  font-size: $font-size-big-number;
+  line-height: $line-height-big-number;
 }
 
-@mixin number-lg {
-  font-size: 108px;
-  line-height: 124px;
+@mixin font-large-number {
+  font-size: $font-size-large-number;
+  line-height: $line-height-large-number;
 }
 
-@mixin faq-title {
-  font-size: 18px;
-  line-height: 28px;
+@mixin font-title-FAQ {
+  font-size: $font-size-title-FAQ;
+  line-height: $line-height-title-FAQ;
 }

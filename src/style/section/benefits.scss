@@ -1,5 +1,5 @@
 .benefits {
-  background-color: $black-primery;
+  background-color: $color-black-primery;
   text-align: center;
   margin-top: -10px;
 
@@ -7,12 +7,10 @@
     margin-top: 0;
   }
 
-  &__citat {
-    @include sub-title;
+  &__title {
+    @include font-sub-title;
 
-    color: $white-primery;
-    letter-spacing: 2px;
-    text-transform: uppercase;
+    color: $color-white-primery;
     padding-top: 100px;
     margin-bottom: 5px;
 
@@ -20,10 +18,10 @@
       padding-top: 40px;
     }
   }
-  &__title {
-    @include title;
+  &__citat {
+    @include font-title;
 
-    color: $white-primery;
+    color: $color-white-primery;
     max-width: 500px;
     margin: 0 auto;
     margin-bottom: 40px;
@@ -31,7 +29,7 @@
 
   &__list {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
     gap: 16px;
     padding-bottom: 100px;
 
@@ -55,7 +53,7 @@
 
   &__card {
     padding: 40px 0 0 0;
-    background-color: $white-primery;
+    background-color: $color-white-primery;
     border-radius: 20px;
 
     @include media-from-to(320, 728.9) {
@@ -64,62 +62,67 @@
   }
 
   &__bg {
-    background-color: $white-secondary;
+    background-color: $color-white-secondary;
     margin-top: -5px;
   }
 
   &__wrap {
     position: relative;
-    background-color: $icon-1;
+    background-color: $color-blue;
     max-width: 64px;
     max-height: 64px;
     padding: 20px;
     margin: 0 auto;
     transform: translateY(-32px);
-    z-index: 10;
+    z-index: 5;
   }
 
-  &__wrap--2 {
-    background-color: $icon-2;
+  &__card--2 {
+    .benefits__wrap {
+      background-color: $color-red;
+    }
+    .benefits__subtitle {
+      color: $color-red;
+    }
   }
-  &__wrap--3 {
-    background-color: $icon-3;
+  &__card--3 {
+    .benefits__wrap {
+      background-color: $color-orange;
+    }
+    .benefits__subtitle {
+      color: $color-orange;
+    }
   }
-  &__wrap--4 {
-    background-color: $icon-4;
+  &__card--4 {
+    .benefits__wrap {
+      background-color: $color-pink;
+    }
+    .benefits__subtitle {
+      color: $color-pink;
+    }
   }
-  &__wrap--5 {
-    background-color: $icon-5;
+  &__card--5 {
+    .benefits__wrap {
+      background-color: $color-blue-light;
+    }
+    .benefits__subtitle {
+      color: $color-blue-light;
+    }
   }
-  &__wrap--6 {
-    background-color: $icon-6;
+  &__card--6 {
+    .benefits__wrap {
+      background-color: $color-violet;
+    }
+    .benefits__subtitle {
+      color: $color-violet;
+    }
   }
 
   &__subtitle {
-    @include title-card;
+    @include font-title-card;
 
-    color: $icon-1;
+    color: $color-blue;
     margin: -11px 0px 11px 0px;
-  }
-
-  &__subtitle--2 {
-    color: $icon-2;
-  }
-
-  &__subtitle--3 {
-    color: $icon-3;
-  }
-
-  &__subtitle--4 {
-    color: $icon-4;
-  }
-
-  &__subtitle--5 {
-    color: $icon-5;
-  }
-
-  &__subtitle--6 {
-    color: $icon-6;
   }
 
   &__text {

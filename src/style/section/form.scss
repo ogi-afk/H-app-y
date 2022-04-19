@@ -16,16 +16,14 @@
     }
   }
 
-  &__citate {
-    @include sub-title;
+  &__title {
+    @include font-sub-title;
 
-    letter-spacing: 2px;
-    text-transform: uppercase;
     margin-bottom: 5px;
   }
 
-  &__title {
-    @include title;
+  &__citate {
+    @include font-title;
 
     margin-bottom: 15px;
   }
@@ -44,6 +42,7 @@
 
     @include media-from-to(320, 727.9) {
       margin: 0 auto;
+      margin-bottom: -7px;
     }
   }
 
@@ -53,11 +52,12 @@
 
     @include media-from-to(320, 727.9) {
       margin: 0 auto;
+      margin-bottom: -7px;
     }
   }
 
   &--grey {
-    background-color: $white-secondary;
+    background-color: $color-white-secondary;
     padding-top: 100px;
   }
 }

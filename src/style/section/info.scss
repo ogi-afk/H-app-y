@@ -1,11 +1,11 @@
 .info {
-  background-color: $icon-2;
-  color: $white-primery;
+  background-color: $color-red;
+  color: $color-white-primery;
   text-align: center;
 
   &__list {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
 
     @include media-from-to(320, 727.9) {
       display: flex;
@@ -14,17 +14,24 @@
   }
 
   &__number {
-    @include number-bg;
+    @include font-big-number;
 
     margin-top: 80px;
     margin-bottom: 20px;
+
+    @include media-from-to(320, 727.9) {
+      margin-top: 15px;
+      margin-bottom: 20px;
+    }
   }
 
   &__text {
-    @include sub-title;
+    @include font-sub-title;
 
-    letter-spacing: 2px;
-    text-transform: uppercase;
     margin-bottom: 100px;
+
+    @include media-from-to(320, 727.9) {
+      margin-bottom: 20px;
+    }
   }
 }

@@ -1,7 +1,7 @@
 .dark {
-  background-color: $black-primery;
+  background-color: $color-black-primery;
   text-align: center;
-  color: $white-primery;
+  color: $color-white-primery;
   padding-top: 100px;
   padding-bottom: 140px;
 
@@ -9,22 +9,20 @@
     padding-bottom: 50px;
   }
 
-  &__citation {
-    @include sub-title;
+  &__title {
+    @include font-sub-title;
 
-    letter-spacing: 2px;
-    text-transform: uppercase;
     margin-bottom: 5px;
   }
 
-  &__title {
-    @include title;
+  &__citation {
+    @include font-title;
 
     margin-bottom: 14px;
   }
 
   &__text {
-    @include text-secondary;
+    @include font-text-secondary;
     max-width: 578px;
     margin: 0 auto;
   }
@@ -46,7 +44,7 @@
     width: 600px;
     height: 2px;
     display: inline-block;
-    background-color: $white-primery;
+    background-color: $color-white-primery;
     position: absolute;
     bottom: 6px;
     left: 50%;
@@ -70,7 +68,7 @@
   }
 
   &__but {
-    @include sub-title;
+    @include font-sub-title;
 
     letter-spacing: 2px;
     text-transform: uppercase;

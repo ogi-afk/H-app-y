@@ -1,5 +1,5 @@
 .faQ {
-  background-color: $white-secondary;
+  background-color: $color-white-secondary;
   padding-top: 140px;
   padding-bottom: 100px;
 
@@ -9,13 +9,13 @@
   }
 
   &__title {
-    @include title;
+    @include font-title;
 
     margin-bottom: 13px;
   }
 
   &__citation {
-    @include sub-title;
+    @include font-sub-title;
   }
 
   &__list {
@@ -30,8 +30,13 @@
     }
   }
 
+  &__card {
+    @include media-from-to(320, 727.9) {
+      margin-bottom: 30px;
+    }
+  }
+
   &__sub-title {
     margin-bottom: 10px;
-    font-weight: normal;
   }
 }

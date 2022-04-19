@@ -1,5 +1,5 @@
 .navigation {
-  @include navigation;
+  @include font-navigation-title;
 
   &__list {
     display: flex;

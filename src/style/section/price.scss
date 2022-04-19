@@ -3,22 +3,20 @@
   text-align: center;
   margin-bottom: 100px;
 
-  &__citation {
-    @include sub-title;
+  &__title {
+    @include font-sub-title;
 
-    letter-spacing: 2px;
-    text-transform: uppercase;
     margin-bottom: 5px;
   }
 
-  &__title {
-    @include title;
+  &__citation {
+    @include font-title;
 
     margin-bottom: 14px;
   }
 
   &__text {
-    @include text-secondary;
+    @include font-text-secondary;
 
     max-width: 568px;
     margin: 0 auto;
@@ -37,32 +35,41 @@
   }
 
   &__card {
-    background-color: $white-secondary;
+    background-color: $color-white-secondary;
     padding-top: 59px;
     padding-bottom: 50px;
     border-radius: 20px;
   }
 
   &__sub-title {
-    @include sub-title;
+    @include font-sub-title;
   }
 
   &__number {
-    @include number-lg;
+    @include font-large-number;
   }
 
   &--1 {
-    color: $icon-1;
+    .price__sub-title,
+    .price__number {
+      color: $color-blue;
+    }
   }
   &--2 {
-    color: $icon-2;
+    .price__sub-title,
+    .price__number {
+      color: $color-red;
+    }
   }
   &--3 {
-    color: $icon-3;
+    .price__sub-title,
+    .price__number {
+      color: $color-orange;
+    }
   }
 
   &__time {
-    @include sub-title;
+    @include font-sub-title;
 
     letter-spacing: 2px;
     text-transform: uppercase;

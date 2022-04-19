@@ -24,4 +24,12 @@
       display: none;
     }
   }
+
+  &__line {
+    content: "";
+    display: block;
+    background-color: $color-black-primery;
+    width: 35px;
+    height: 3px;
+  }
 }

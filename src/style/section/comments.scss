@@ -1,19 +1,17 @@
 .comments {
   text-align: center;
-  background-color: $white-secondary;
+  background-color: $color-white-secondary;
   padding-top: 100px;
   padding-bottom: 100px;
 
-  &__citation {
-    @include sub-title;
+  &__title {
+    @include font-sub-title;
 
-    letter-spacing: 2px;
-    text-transform: uppercase;
     margin-bottom: 5px;
   }
 
-  &__title {
-    @include title;
+  &__citation {
+    @include font-title;
 
     margin-bottom: 14px;
   }
@@ -31,6 +29,7 @@
       -ms-overflow-style: none;
       scrollbar-width: none;
       padding-bottom: 25px;
+      margin-top: 25px;
 
       &::-webkit-scrollbar {
         display: none;
@@ -39,14 +38,14 @@
   }
 
   &__card {
-    background-color: $white-primery;
+    background-color: $color-white-primery;
     border-radius: 20px;
     padding: 30px 30px 30px 30px;
     display: flex;
     flex-direction: column;
 
-    @include media-from-to(320, 727.9) {
-      min-width: 220px;
+    @include media-from-to(320, 772) {
+      min-width: 250px;
     }
   }
 

@@ -1,33 +1,36 @@
 .button {
-  @include button;
+  @include font-text-button;
 
-  color: $white-primery;
-  background: $black-primery;
+  color: $color-white-primery;
+  background: $color-black-primery;
   padding: 10px 30px 12px 30px;
   border-radius: 4px;
   text-transform: uppercase;
   letter-spacing: 2px;
 
   &--1 {
-    background-color: $icon-1;
+    background-color: $color-blue;
   }
   &--2 {
-    background-color: $icon-2;
+    background-color: $color-red;
   }
   &--3 {
-    background-color: $icon-3;
+    background-color: $color-orange;
   }
 
   &--load {
     display: inline-block;
     padding: 12px 15px 9px 15px;
-    border-radius: 20px;
+    border-radius: 10px;
+    border: 2px solid $color-grey-secondary;
   }
 
   &--hamburger {
+    border: none;
     display: flex;
     flex-direction: column;
-    gap: 8px;
-    padding: 5px;
+    gap: 6px;
+    height: 25px;
+    background-color: transparent;
   }
 }
