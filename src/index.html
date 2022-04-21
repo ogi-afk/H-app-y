@@ -13,7 +13,7 @@
 </head>
 
 <body>
-  <header class="header container ">
+  <header class="header ">
     <div class="header__wrapper container">
       <a href="/" aria-label="to home page">
         <img src="img/logotype/logotype.png" alt="logotype" class="header__logo">
@@ -53,10 +53,12 @@
         <h1 class="future__title">The future of digital photos.</h1>
         <p class="future__text">The H(app)y app is the latest & greatest in phone photography. It's available in the
           App Store right now. Go check it out!</p>
-        <a href="#" class="button future__button">Download</a>
-        <a href="#features" class="button future__button">Read more</a>
+        <div class="future__wrapper">
+          <a href="#" class="button future__button">Download</a>
+          <a href="#features" class="button future__button">Read more</a>
+        </div>
       </div>
-      <div>
+      <div class="future__block">
         <img src="img/screen/mobile.jpg" alt="photo mobile" class="future__img">
       </div>
     </section>
@@ -184,24 +186,27 @@
 
       </ul>
     </section>
-    <section class="dark container">
-      <h2 class="dark__title">Dark mode</h2>
-      <p class="dark__citation">Also available in dark.</p>
-      <p class="dark__text">Don't get blinded when using the H(app)y app at night, just turn off the lights. Lorem ipsum
-        dolor sit amet.</p>
-      <div class="dark__wrap">
-        <img src="img/screen/frame-dark.png" alt="screenshot" class="dark__img">
+    <section class="dark ">
+      <div class="container">
+        <h2 class="dark__title">Dark mode</h2>
+        <p class="dark__citation">Also available in dark.</p>
+        <p class="dark__text">Don't get blinded when using the H(app)y app at night, just turn off the lights. Lorem
+          ipsum
+          dolor sit amet.</p>
+        <div class="dark__wrap">
+          <img src="img/screen/frame-dark.png" alt="screenshot" class="dark__img">
+        </div>
+        <ul class="dark__list">
+          <li class="dark__card">
+            <img src="img/svg/sun-icon.svg" alt="icon sun" class="dark__icon">
+            <p class="dark__but">Light Mode</p>
+          <li>
+          <li class="dark__card">
+            <img src="img/svg/moon-icon.svg" alt="icon moon" class="dark__icon">
+            <p class="dark__but">Dark mode</p>
+          <li>
+        </ul>
       </div>
-      <ul class="dark__list">
-        <li class="dark__card">
-          <img src="img/svg/sun-icon.svg" alt="icon sun" class="dark__icon">
-          <p class="dark__but">Light Mode</p>
-        <li>
-        <li class="dark__card">
-          <img src="img/svg/moon-icon.svg" alt="icon moon" class="dark__icon">
-          <p class="dark__but">Dark mode</p>
-        <li>
-      </ul>
     </section>
     <section class="price container" id="pricing">
       <h2 class="price__title">Pricing</h2>
