@@ -24,7 +24,7 @@
     text-align: start;
     gap: 16px;
 
-    @include media-from-to(320, 728.9) {
+    @include media-from-to(320, 768) {
       display: flex;
 
       overflow: scroll;

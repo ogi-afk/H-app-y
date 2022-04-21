@@ -26,6 +26,10 @@
       padding: 0 0;
       margin: 0 auto;
     }
+
+    @include media-from-to(728, 999.9) {
+      margin: 0 auto;
+    }
   }
 
   &__title {

@@ -55,6 +55,11 @@
     padding: 40px 0 0 0;
     background-color: $color-white-primery;
     border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
 
     @include media-from-to(320, 728.9) {
       min-width: 200px;
@@ -64,6 +69,7 @@
   &__bg {
     background-color: $color-white-secondary;
     margin-top: -5px;
+    flex: content;
   }
 
   &__wrap {
