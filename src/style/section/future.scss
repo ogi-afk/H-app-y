@@ -47,7 +47,7 @@
   &__button {
     margin-right: 10px;
 
-    @include media-up-to(1000) {
+    @include media-up-to(1009) {
       display: inline-block;
       margin-bottom: 20px;
     }
@@ -59,8 +59,8 @@
       display: none;
     }
 
-    @include media-from-to(1000, 9.12) {
-      margin-right: 20px;
+    @include media-from-to(1000, 1200) {
+      margin-right: 10px;
     }
   }
 }

@@ -41,7 +41,8 @@
 
   &__wrap::before {
     content: "";
-    width: 600px;
+    max-width: 600px;
+    width: 100%;
     height: 2px;
     display: inline-block;
     background-color: $color-white-primery;
@@ -49,14 +50,6 @@
     bottom: 6px;
     left: 50%;
     transform: translateX(-50%);
-
-    @include media-up-to(800) {
-      width: 330px;
-    }
-
-    @include media-up-to(800) {
-      width: 600px;
-    }
   }
 
   &__list {
