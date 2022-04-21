@@ -58,5 +58,9 @@
     @include media-up-to(1000) {
       display: none;
     }
+
+    @include media-from-to(1000, 9.12) {
+      margin-right: 20px;
+    }
   }
 }

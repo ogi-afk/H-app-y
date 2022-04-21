@@ -30,7 +30,7 @@
 64C:\edu\2022\H-app-y\node_modules\caniuse-lite\data\regions\SZ.js132936530799218354 0
 55C:\edu\2022\H-app-y\node_modules\@parcel\diagnostic\src132936530805051009 1
 44C:\edu\2022\H-app-y\dist\icon-1.1bd0ca9c.svg132947798987628948 0
-24C:\edu\2022\H-app-y\dist132950110263138643 1
+24C:\edu\2022\H-app-y\dist132950114593981891 1
 49C:\edu\2022\H-app-y\node_modules\type-fest\source132936530783957385 1
 30C:\edu\2022\H-app-y\.gitignore132942278560236591 0
 63C:\edu\2022\H-app-y\node_modules\htmlparser2\lib\FeedHandler.js132936530777673479 0
@@ -149,7 +149,7 @@
 47C:\edu\2022\H-app-y\src\style\layout\index.scss132937226644309130 0
 98C:\edu\2022\H-app-y\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-main132936530788987670 1
 63C:\edu\2022\H-app-y\node_modules\htmlnano\lib\modules\custom.js132936530780392968 0
-49C:\edu\2022\H-app-y\src\style\section\future.scss132950090782236034 0
+49C:\edu\2022\H-app-y\src\style\section\future.scss132950114510992453 0
 46C:\edu\2022\H-app-y\node_modules\chalk\license132936530777234688 0
 45C:\edu\2022\H-app-y\node_modules\htmlnano\lib132936530781011314 1
 47C:\edu\2022\H-app-y\src\style\section\info.scss132950110838345636 0
@@ -536,7 +536,7 @@
 96C:\edu\2022\H-app-y\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\foo\nested132936530781021288 1
 58C:\edu\2022\H-app-y\node_modules\css-select\lib\general.js132936530779754676 0
 54C:\edu\2022\H-app-y\node_modules\svgo\lib\css-tools.js132936530782663711 0
-43C:\edu\2022\H-app-y\dist\index.08963856.css132950110263108989 0
+43C:\edu\2022\H-app-y\dist\index.08963856.css132950114593862450 0
 41C:\edu\2022\H-app-y\node_modules\msgpackr132936530782242044 1
 90C:\edu\2022\H-app-y\node_modules\dom-serializer\node_modules\entities\lib\maps\decode.json132936530779555243 0
 53C:\edu\2022\H-app-y\node_modules\yaml\browser\pair.js132936530781293056 0
@@ -4307,7 +4307,7 @@
 44C:\edu\2022\H-app-y\dist\icon-4.32ea5f02.svg132950097894750525 0
 44C:\edu\2022\H-app-y\dist\icon-4.951781ca.svg132942599458398365 0
 44C:\edu\2022\H-app-y\dist\icon-5.cba001cc.svg132947798987628948 0
-47C:\edu\2022\H-app-y\dist\index.08963856.css.map132950110263108989 0
+47C:\edu\2022\H-app-y\dist\index.08963856.css.map132950114593882162 0
 43C:\edu\2022\H-app-y\dist\index.2371eadb.css132942599459954212 0
 47C:\edu\2022\H-app-y\dist\index.2371eadb.css.map132942599459954212 0
 35C:\edu\2022\H-app-y\dist\index.html132950098117697174 0
