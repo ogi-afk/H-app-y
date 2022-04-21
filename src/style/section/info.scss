@@ -7,7 +7,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 
-    @include media-from-to(320, 727.9) {
+    @include media-up-to(727.9) {
       display: flex;
       flex-direction: column;
     }
@@ -19,8 +19,8 @@
     margin-top: 80px;
     margin-bottom: 20px;
 
-    @include media-from-to(320, 727.9) {
-      margin-top: 15px;
+    @include media-up-to(727.9) {
+      margin-top: 35px;
       margin-bottom: 20px;
     }
   }
@@ -30,8 +30,8 @@
 
     margin-bottom: 100px;
 
-    @include media-from-to(320, 727.9) {
-      margin-bottom: 20px;
+    @include media-up-to(727.9) {
+      margin-bottom: 40px;
     }
   }
 }

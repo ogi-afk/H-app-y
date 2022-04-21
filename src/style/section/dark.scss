@@ -5,7 +5,7 @@
   padding-top: 100px;
   padding-bottom: 165px;
 
-  @include media-from-to(320, 800) {
+  @include media-up-to(800) {
     padding-bottom: 50px;
   }
 
@@ -30,7 +30,7 @@
   &__img {
     margin-top: 31px;
 
-    @include media-from-to(320, 800) {
+    @include media-up-to(800) {
       max-width: 300px;
     }
   }
@@ -50,11 +50,11 @@
     left: 50%;
     transform: translateX(-50%);
 
-    @include media-from-to(320, 800) {
+    @include media-up-to(800) {
       width: 330px;
     }
 
-    @include media-from-to(600, 800) {
+    @include media-up-to(800) {
       width: 600px;
     }
   }

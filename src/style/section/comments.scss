@@ -24,7 +24,7 @@
     text-align: start;
     gap: 16px;
 
-    @include media-from-to(320, 768) {
+    @include media-up-to(768) {
       display: flex;
 
       overflow: scroll;
@@ -46,7 +46,7 @@
     display: flex;
     flex-direction: column;
 
-    @include media-from-to(320, 772) {
+    @include media-up-to(772) {
       min-width: 250px;
     }
   }

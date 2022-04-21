@@ -28,7 +28,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     gap: 16px;
 
-    @include media-from-to(320, 727.99) {
+    @include media-up-to(727.99) {
       display: flex;
       flex-direction: column;
     }

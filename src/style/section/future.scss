@@ -7,7 +7,7 @@
     margin-top: 70px;
   }
 
-  @include media-from-to(0, 727.9) {
+  @include media-up-to(727.9) {
     margin-top: 50px;
     text-align: center;
     padding-bottom: 50px;
@@ -22,7 +22,7 @@
       margin-top: 20px;
     }
 
-    @include media-from-to(0, 727.9) {
+    @include media-up-to(727.9) {
       padding: 0 0;
       margin: 0 auto;
     }
@@ -47,7 +47,7 @@
   &__button {
     margin-right: 10px;
 
-    @include media-from-to(0, 1000) {
+    @include media-up-to(1000) {
       display: inline-block;
       margin-bottom: 20px;
     }

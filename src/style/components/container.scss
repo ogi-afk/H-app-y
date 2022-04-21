@@ -1,27 +1,24 @@
 .container {
   margin: 0 auto;
   padding: 0 136px;
-  max-width: 1440px;
   width: 100%;
-  max-width: 100%;
+  max-width: 1440px;
 
-  @include media-from-to(0, 727.99) {
+  @include media-up-to(727.99) {
     padding: 0 10px;
-    min-width: 320px;
   }
 
   @include media-from-to(728, 990.9) {
-    min-width: 708px;
+    max-width: 951px;
     padding: 0 20px;
   }
 
-  @include media-from-to(991, 1279.9) {
-    min-width: 951px;
-    padding: 0 20px;
+  @include media-from-to(991, 1439.9) {
+    padding: 0 30px;
+    max-width: 1380px;
   }
 
-  @include media-from-to(1280, 1439.9) {
-    min-width: 1240px;
-    padding: 0 100px;
+  @include media-from(1790) {
+    max-width: 1568px;
   }
 }
